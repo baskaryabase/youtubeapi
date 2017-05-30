@@ -3,7 +3,7 @@ import React from 'react';
 const VideoDetai = ({video}) => {
 
   if (!video) {
-    return (<div>loading...</div>);
+    return (<div><img src="https://www.createwebsite.net/wp-content/uploads/2015/09/GD.gif" alt="" /></div>);
   }
 
     const VideoId = video.id.videoId;

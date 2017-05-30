@@ -3,9 +3,9 @@ import React,{Component} from 'react';
 class SearchBar extends Component{
 render() {
     return (
-            <div>
+            <div className="container search-bar" >
               <input
-                className="input"
+                className="form-control"
                 onChange={(event)=>this.props.onChangeTerm(event.target.value)}
                />
             </div>
